@@ -201,7 +201,7 @@ collectBtn.MouseButton1Click:Connect(function()
                     if (v:IsA("Part") or v:IsA("MeshPart")) and (
                         v.Name == "BeachBall" or v.Name == "Beach Ball" or v.Name == "BeachBalls" or v.Name == "Beach Balls") then
                         table.insert(beachBalls, v)
-                        if #beachBalls >= 15 then break end
+                        if #beachBalls >= 66 then break end
                     end
                 end
 
